@@ -7,6 +7,11 @@ const hands = document.getElementsByClassName("hand")[0];
 
 form.addEventListener("submit", function (e) {
   e.preventDefault();
+
+  const email = emailInput.value;
+  const password = passInput.value;
+
+  console.log(email, password);
 });
 
 emailInput.addEventListener("input", function () {
