@@ -1,8 +1,8 @@
 .container {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  width: 70%;
-  background-color: darkcyan;
+  width: 50%;
+  background-color: rgb(82, 152, 228);
   padding: 2em;
 }
 
@@ -22,14 +22,14 @@ main {
   bottom: 65px;
   position: absolute;
   left: 42px;
-  animation: blink 2s ease infinite;
+  animation: blink 3s ease infinite;
 }
 
 .eyes:nth-child(2) {
   bottom: 65px;
   position: absolute;
   left: 98px;
-  animation: blink 2s ease infinite;
+  animation: blink 3s ease infinite;
 }
 
 .eyes-cont {
@@ -45,6 +45,10 @@ form {
 
 .rotate {
   transform: translateX(4px);
+}
+
+.rotate2 {
+  transform: translateX(2px);
 }
 
 .dot {
@@ -91,7 +95,7 @@ form {
 input {
   border-radius: 15px;
   z-index: 1;
-  height: 50px;
+  height: 40px;
 }
 
 .passdiv {

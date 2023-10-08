@@ -11,9 +11,16 @@ form.addEventListener("submit", function (e) {
 
 emailInput.addEventListener("input", function () {
   for (let i = 0; i < dotEye.length; i++) {
-    if (emailInput.value !== "") {
+    const emailValue = emailInput.value;
+    if (emailValue.length > 5) {
+      dotEye[i].classList.add("rotate2");
+    }
+    if (emailValue.length > 10) {
+      dotEye[i].classList.remove("rotate2");
       dotEye[i].classList.add("rotate");
-    } else {
+    }
+    if (emailInput.value === "") {
+      dotEye[i].classList.remove("rotate2");
       dotEye[i].classList.remove("rotate");
     }
   }
