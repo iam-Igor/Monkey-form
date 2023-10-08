@@ -70,7 +70,7 @@ form {
   position: absolute;
 
   bottom: 70px;
-  left: 103px;
+  left: 104px;
 }
 
 .hand {
@@ -95,7 +95,7 @@ form {
 input {
   border-radius: 15px;
   z-index: 1;
-  height: 40px;
+  height: 42px;
 }
 
 .passdiv {
